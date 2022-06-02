@@ -22,7 +22,7 @@ I am attentive to details and well organized which, to help me to achieve high r
 ### Project development:
 Django website (02/2022 – till now):  
 [website](https://florence100.pythonanywhere.com)  
-[github](https://github.com/Florence100/my-first-shop)
+[repository_github](https://github.com/Florence100/my-first-shop)
 ***
 ### Education:
 01/2022 – 05/2022  
