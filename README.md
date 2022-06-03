@@ -1,1 +1,1 @@
-https://Florence100.github.io/rsschool-cv/cv
+https://Florence100.github.io/rsschool-cv/
