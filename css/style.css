@@ -9,7 +9,7 @@ body {
     width: 1155px;
     margin: 0 auto;
     padding: 0;
-    height: 1500px;
+    height: 1600px;
 }
 
 .cv_list::after {
@@ -23,6 +23,7 @@ aside {
     width: 380px;
     height: 100%;    
     background-color: #e4d5d2;
+    position: relative;
 }
 
 .main {    
@@ -32,6 +33,7 @@ aside {
     padding: 0;
     margin: 0;
     border-right: 0.5px solid #3d333e;
+    position: relative;
 }
 
 .main_info {
@@ -76,7 +78,7 @@ img {
 .contacts p {
     margin: 0;
     padding: 0;
-    margin-top: 7.5px;
+    margin-top: 36px;
 }
 
 .work_experience, .languages {
@@ -89,7 +91,7 @@ img {
     line-height: 24px;
 }
 
-.work, .languages_kinds, .project_kinds, .skills_kinds {
+.work, .languages_kinds, .project_kinds, .skills_kinds, .contacts_kinds {
     margin: 36px 0;
 }
 
@@ -212,9 +214,61 @@ a:hover {
     left: 33px;
 }
 
+.telegram, .email, .linkedin {
+    position: relative;
+    padding-left: 50px;
+}
+
+.telegram_logo {
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+
+.email_logo {
+    position: absolute;
+    top: -7px;
+    left: 0;
+}
+
+.linkedin_logo {
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+
+.footer {
+    background-color: #76656b;
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+}
+
+.githab {
+    position: absolute;
+    top: -6px;
+    right: 215px;
+}
+
+.rs_scool {
+    position: absolute;
+    top: 13px;
+    right: 113px;
+}
+
+time {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    font-size: 16px;
+}
 
 
-/* 16 24 36*/
+
+
+
+
 
 
 
