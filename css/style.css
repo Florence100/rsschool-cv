@@ -216,25 +216,25 @@ a:hover {
 
 .telegram, .email, .linkedin {
     position: relative;
-    padding-left: 50px;
+    padding-left: 5px;
 }
 
 .telegram_logo {
     position: absolute;
     top: -7px;
-    left: 0;
+    left: -40px;
 }
 
 .email_logo {
     position: absolute;
     top: -7px;
-    left: 0;
+    left: -40px;
 }
 
 .linkedin_logo {
     position: absolute;
     top: -8px;
-    left: 0;
+    left: -40px;
 }
 
 .footer {
@@ -248,7 +248,7 @@ a:hover {
 .githab {
     position: absolute;
     top: -6px;
-    right: 215px;
+    right: 218px;
 }
 
 .rs_scool {
@@ -257,11 +257,15 @@ a:hover {
     right: 113px;
 }
 
-time {
+.time {
     position: absolute;
-    top: 23px;
-    right: 20px;
+    top: 8px;
+    right: 25px;
     font-size: 16px;
+}
+
+li {
+    list-style-type: none;
 }
 
 
