@@ -9,7 +9,7 @@ body {
     width: 1155px;
     margin: 0 auto;
     padding: 0;
-    height: 1200px;
+    height: 1500px;
 }
 
 .cv_list::after {
@@ -38,7 +38,7 @@ aside {
     background-color: #3d333e;
     padding: 0;
     margin: 0;
-    min-height: 265px;
+    min-height: 270px;
     border: 1px solid #3d333e;
 }
 
@@ -76,7 +76,7 @@ img {
 .contacts p {
     margin: 0;
     padding: 0;
-    margin-top: 16px;
+    margin-top: 7.5px;
 }
 
 .work_experience, .languages {
@@ -89,7 +89,7 @@ img {
     line-height: 24px;
 }
 
-.work, .languages_kinds {
+.work, .languages_kinds, .project_kinds, .skills_kinds {
     margin: 36px 0;
 }
 
@@ -104,7 +104,7 @@ h1 {
     text-transform: uppercase;
     font-weight: 400;
     font-size: 35px;
-    margin: 80px 0 0 0;
+    margin: 85px 0 0 0;
     padding: 0;
 }
 
@@ -116,22 +116,105 @@ h1 {
     padding: 0;
 }
 
+.about_myself {
+    margin-top: 63px;
+}
+
+.about_myself p {
+    margin: 36px 0 80px 0;
+    line-height: 24px;
+}
+
+.education_table {
+    border-collapse: collapse;
+    margin-top: 36px;
+}
+
+.education_table td {
+    vertical-align: top;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.education_table p {
+    margin: 0;
+    padding: 0;
+}
+
+td .table_title {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #806983;
+}
+
+.project {
+    margin: 50px 0 50px 0;
+}
+
+.project p a {
+    vertical-align: 16px;
+}
+
+.skills_point {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 27px;    
+}
+
+.first {
+    background-color: #3d333e;
+}
+
+.second {
+    background-color: #5c4f58;
+}
+
+.third {
+    background-color: #76656b;
+}
+
+.fourth {
+    background-color: #8c797b
+}
+
+.fifth {
+    margin-right: 0;
+    background-color: #b4a0a1 
+}
+
+.skills_point p {
+    color: #e4d5d2;
+    position: absolute;
+    top: 23px;
+    left: 25px;
+}
+
+.third p {
+    left: 38px;
+}
+
+.fourth p {
+    left: 29px;
+}
+
+.fifth p {
+    left: 33px;
+}
+
 
 
 /* 16 24 36*/
-
-/*.table_work {
-    border-collapse: collapse;
-    
-}
-
-.table_work td {
-    vertical-align: top;
-}
-
-.table_work td {    
-    border: 1px solid black;
-}*/
 
 
 
