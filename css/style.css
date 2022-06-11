@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+	font-size: 16px;   
+}
+
+.cv_list {       
+    width: 1155px;
+    margin: 0 auto;
+    padding: 0;
+    height: 1600px;
+}
+
+.cv_list::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+aside {
+    float: left;
+    width: 380px;
+    height: 100%;    
+    background-color: #e4d5d2;
+    position: relative;
+}
+
+.main {    
+    float: right;
+    width: 774px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border-right: 0.5px solid #3d333e;
+    position: relative;
+}
+
+.main_info {
+    background-color: #3d333e;
+    padding: 0;
+    margin: 0;
+    min-height: 270px;
+    border: 1px solid #3d333e;
+}
+
+.container, .main_info {
+    padding: 0 70px;
+}
+
+.image {
+    width: 240px;
+    height: 200px;
+    margin-top: 55px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 3px solid black;
+}
+
+.contacts {
+    padding-top: 80px;   
+}
+
+.contacts h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.contacts p {
+    margin: 0;
+    padding: 0;
+    margin-top: 36px;
+}
+
+.work_experience, .languages {
+    margin-top: 80px;
+}
+
+.work p {
+    margin: 12px 0;
+    padding: 0;
+    line-height: 24px;
+}
+
+.work, .languages_kinds, .project_kinds, .skills_kinds, .contacts_kinds {
+    margin: 36px 0;
+}
+
+.languages_kinds p {
+    margin: 0;
+    padding: 0;
+    line-height: 36px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 85px 0 0 0;
+    padding: 0;
+}
+
+.main_info p {
+    color: #e4d5d2;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.about_myself {
+    margin-top: 63px;
+}
+
+.about_myself p {
+    margin: 36px 0 80px 0;
+    line-height: 24px;
+}
+
+.education_table {
+    border-collapse: collapse;
+    margin-top: 36px;
+}
+
+.education_table td {
+    vertical-align: top;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.education_table p {
+    margin: 0;
+    padding: 0;
+}
+
+td .table_title {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #806983;
+}
+
+.project {
+    margin: 50px 0 50px 0;
+}
+
+.project p a {
+    vertical-align: 16px;
+}
+
+.skills_point {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    margin-right: 27px;    
+}
+
+.first {
+    background-color: #3d333e;
+}
+
+.second {
+    background-color: #5c4f58;
+}
+
+.third {
+    background-color: #76656b;
+}
+
+.fourth {
+    background-color: #8c797b
+}
+
+.fifth {
+    margin-right: 0;
+    background-color: #b4a0a1 
+}
+
+.skills_point p {
+    color: #e4d5d2;
+    position: absolute;
+    top: 23px;
+    left: 25px;
+}
+
+.third p {
+    left: 38px;
+}
+
+.fourth p {
+    left: 29px;
+}
+
+.fifth p {
+    left: 33px;
+}
+
+.telegram, .email, .linkedin {
+    position: relative;
+    padding-left: 5px;
+}
+
+.telegram_logo {
+    position: absolute;
+    top: -7px;
+    left: -40px;
+}
+
+.email_logo {
+    position: absolute;
+    top: -7px;
+    left: -40px;
+}
+
+.linkedin_logo {
+    position: absolute;
+    top: -8px;
+    left: -40px;
+}
+
+.footer {
+    background-color: #76656b;
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+}
+
+.githab {
+    position: absolute;
+    top: -6px;
+    right: 218px;
+}
+
+.rs_scool {
+    position: absolute;
+    top: 13px;
+    right: 113px;
+}
+
+.time {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
